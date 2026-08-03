@@ -1,0 +1,833 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\practice\.npmrc
+5 silly config load:file:C:\Users\etiqu\.npmrc
+6 silly config load:file:C:\Users\etiqu\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @cloudflare/workers-types
+8 verbose argv "install" "--save-dev" "@cloudflare/workers-types"
+9 verbose logfile logs-max:10 dir:D:\practice\.sites-runtime\npm-cache\_logs\2026-08-03T05_13_44_812Z-
+10 verbose logfile D:\practice\.sites-runtime\npm-cache\_logs\2026-08-03T05_13_44_812Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @cloudflare/workers-types@^4.20260702.1
+16 silly packumentCache full:https://registry.npmjs.org/@cloudflare%2fworkers-types cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@cloudflare%2fworkers-types 638ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@cloudflare%2fworkers-types set size:1821767 disposed:false
+19 silly placeDep ROOT @cloudflare/workers-types@4.20260702.1 REPLACE for: taskflow-react-interview@0.1.0 want: ^4.20260702.1
+20 silly reify moves {}
+21 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi
+22 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi' ]
+23 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\core
+24 silly reify mark deleted [
+24 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\core'
+24 silly reify ]
+25 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\runtime
+26 silly reify mark deleted [
+26 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\runtime'
+26 silly reify ]
+27 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@emnapi\wasi-threads
+28 silly reify mark deleted [
+28 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@emnapi\\wasi-threads'
+28 silly reify ]
+29 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+30 silly reify mark deleted [
+30 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+30 silly reify ]
+31 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\@tybys\wasm-util
+32 silly reify mark deleted [
+32 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\@tybys\\wasm-util'
+32 silly reify ]
+33 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib
+34 silly reify mark deleted [
+34 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-wasm32-wasi\\node_modules\\tslib'
+34 silly reify ]
+35 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-win32-arm64-msvc
+36 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-win32-arm64-msvc' ]
+37 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-linux-x64-musl
+38 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-linux-x64-musl' ]
+39 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-linux-x64-gnu
+40 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-linux-x64-gnu' ]
+41 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-linux-arm64-musl
+42 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-linux-arm64-musl' ]
+43 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-linux-arm64-gnu
+44 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-linux-arm64-gnu' ]
+45 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-linux-arm-gnueabihf
+46 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-linux-arm-gnueabihf' ]
+47 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-freebsd-x64
+48 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-freebsd-x64' ]
+49 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-darwin-x64
+50 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-darwin-x64' ]
+51 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-darwin-arm64
+52 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-darwin-arm64' ]
+53 verbose reify failed optional dependency D:\practice\node_modules\lightningcss-android-arm64
+54 silly reify mark deleted [ 'D:\\practice\\node_modules\\lightningcss-android-arm64' ]
+55 verbose reify failed optional dependency D:\practice\node_modules\fsevents
+56 silly reify mark deleted [ 'D:\\practice\\node_modules\\fsevents' ]
+57 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+58 silly reify mark deleted [
+58 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+60 silly reify mark deleted [
+60 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-wasm32-wasi
+62 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-wasm32-wasi' ]
+63 verbose reify failed optional dependency D:\practice\node_modules\@napi-rs\wasm-runtime
+64 silly reify mark deleted [ 'D:\\practice\\node_modules\\@napi-rs\\wasm-runtime' ]
+65 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-x64-musl
+66 silly reify mark deleted [
+66 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+66 silly reify ]
+67 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-x64-gnu
+68 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu' ]
+69 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+70 silly reify mark deleted [
+70 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+72 silly reify mark deleted [
+72 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+74 silly reify mark deleted [
+74 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+76 silly reify mark deleted [
+76 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+76 silly reify ]
+77 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-arm64-musl
+78 silly reify mark deleted [
+78 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+78 silly reify ]
+79 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+80 silly reify mark deleted [
+80 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+80 silly reify ]
+81 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+82 silly reify mark deleted [
+82 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+82 silly reify ]
+83 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+84 silly reify mark deleted [
+84 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+84 silly reify ]
+85 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-freebsd-x64
+86 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-freebsd-x64' ]
+87 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-darwin-x64
+88 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-darwin-x64' ]
+89 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-darwin-arm64
+90 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-darwin-arm64' ]
+91 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-android-arm64
+92 silly reify mark deleted [ 'D:\\practice\\node_modules\\@unrs\\resolver-binding-android-arm64' ]
+93 verbose reify failed optional dependency D:\practice\node_modules\@unrs\resolver-binding-android-arm-eabi
+94 silly reify mark deleted [
+94 silly reify   'D:\\practice\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+94 silly reify ]
+95 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+96 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc' ]
+97 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-linux-x64-musl
+98 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-linux-x64-musl' ]
+99 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-linux-x64-gnu
+100 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu' ]
+101 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-linux-arm64-musl
+102 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl' ]
+103 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+104 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu' ]
+105 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+106 silly reify mark deleted [
+106 silly reify   'D:\\practice\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+106 silly reify ]
+107 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-freebsd-x64
+108 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-freebsd-x64' ]
+109 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-darwin-x64
+110 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-darwin-x64' ]
+111 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-darwin-arm64
+112 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-darwin-arm64' ]
+113 verbose reify failed optional dependency D:\practice\node_modules\@tailwindcss\oxide-android-arm64
+114 silly reify mark deleted [ 'D:\\practice\\node_modules\\@tailwindcss\\oxide-android-arm64' ]
+115 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-win32-arm64-msvc
+116 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-win32-arm64-msvc' ]
+117 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-wasm32-wasi
+118 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-wasm32-wasi' ]
+119 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-wasm32-wasi\node_modules\@napi-rs\wasm-runtime
+120 silly reify mark deleted [
+120 silly reify   'D:\\practice\\node_modules\\@rolldown\\binding-wasm32-wasi\\node_modules\\@napi-rs\\wasm-runtime'
+120 silly reify ]
+121 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-openharmony-arm64
+122 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-openharmony-arm64' ]
+123 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-x64-musl
+124 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-x64-musl' ]
+125 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-x64-gnu
+126 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-x64-gnu' ]
+127 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-s390x-gnu
+128 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-s390x-gnu' ]
+129 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-ppc64-gnu
+130 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-ppc64-gnu' ]
+131 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-arm64-musl
+132 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-arm64-musl' ]
+133 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-arm64-gnu
+134 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-linux-arm64-gnu' ]
+135 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-linux-arm-gnueabihf
+136 silly reify mark deleted [
+136 silly reify   'D:\\practice\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+136 silly reify ]
+137 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-freebsd-x64
+138 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-freebsd-x64' ]
+139 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-darwin-x64
+140 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-darwin-x64' ]
+141 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-darwin-arm64
+142 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-darwin-arm64' ]
+143 verbose reify failed optional dependency D:\practice\node_modules\@rolldown\binding-android-arm64
+144 silly reify mark deleted [ 'D:\\practice\\node_modules\\@rolldown\\binding-android-arm64' ]
+145 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-win32-arm64-msvc
+146 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+147 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-linux-x64-musl
+148 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-linux-x64-musl' ]
+149 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-linux-x64-gnu
+150 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-linux-x64-gnu' ]
+151 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-linux-arm64-musl
+152 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-linux-arm64-musl' ]
+153 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-linux-arm64-gnu
+154 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+155 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-darwin-x64
+156 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-darwin-x64' ]
+157 verbose reify failed optional dependency D:\practice\node_modules\@next\swc-darwin-arm64
+158 silly reify mark deleted [ 'D:\\practice\\node_modules\\@next\\swc-darwin-arm64' ]
+159 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-win32-ia32
+160 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-win32-ia32' ]
+161 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-win32-arm64
+162 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-win32-arm64' ]
+163 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-wasm32
+164 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-wasm32' ]
+165 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linuxmusl-x64
+166 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+167 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linuxmusl-arm64
+168 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linuxmusl-arm64' ]
+169 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-x64
+170 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-x64' ]
+171 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-s390x
+172 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-s390x' ]
+173 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-riscv64
+174 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-riscv64' ]
+175 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-ppc64
+176 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-ppc64' ]
+177 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-arm64
+178 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-arm64' ]
+179 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-linux-arm
+180 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-linux-arm' ]
+181 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linuxmusl-x64
+182 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linuxmusl-x64' ]
+183 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linuxmusl-arm64
+184 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64' ]
+185 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-x64
+186 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-x64' ]
+187 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-s390x
+188 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-s390x' ]
+189 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-riscv64
+190 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-riscv64' ]
+191 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-ppc64
+192 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-ppc64' ]
+193 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-arm64
+194 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-arm64' ]
+195 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-linux-arm
+196 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-linux-arm' ]
+197 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-darwin-x64
+198 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-darwin-x64' ]
+199 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-libvips-darwin-arm64
+200 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-libvips-darwin-arm64' ]
+201 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-darwin-x64
+202 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-darwin-x64' ]
+203 verbose reify failed optional dependency D:\practice\node_modules\@img\sharp-darwin-arm64
+204 silly reify mark deleted [ 'D:\\practice\\node_modules\\@img\\sharp-darwin-arm64' ]
+205 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\win32-ia32
+206 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\win32-ia32' ]
+207 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\win32-arm64
+208 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\win32-arm64' ]
+209 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\sunos-x64
+210 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\sunos-x64' ]
+211 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\openharmony-arm64
+212 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\openharmony-arm64' ]
+213 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\openbsd-x64
+214 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\openbsd-x64' ]
+215 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\openbsd-arm64
+216 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\openbsd-arm64' ]
+217 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\netbsd-x64
+218 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\netbsd-x64' ]
+219 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\netbsd-arm64
+220 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\netbsd-arm64' ]
+221 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-x64
+222 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-x64' ]
+223 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-s390x
+224 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-s390x' ]
+225 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-riscv64
+226 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-riscv64' ]
+227 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-ppc64
+228 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-ppc64' ]
+229 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-mips64el
+230 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-mips64el' ]
+231 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-loong64
+232 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-loong64' ]
+233 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-ia32
+234 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-ia32' ]
+235 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-arm64
+236 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-arm64' ]
+237 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\linux-arm
+238 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\linux-arm' ]
+239 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\freebsd-x64
+240 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\freebsd-x64' ]
+241 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\freebsd-arm64
+242 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\freebsd-arm64' ]
+243 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\darwin-x64
+244 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\darwin-x64' ]
+245 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\darwin-arm64
+246 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\darwin-arm64' ]
+247 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\android-x64
+248 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\android-x64' ]
+249 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\android-arm64
+250 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\android-arm64' ]
+251 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\android-arm
+252 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\android-arm' ]
+253 verbose reify failed optional dependency D:\practice\node_modules\@esbuild\aix-ppc64
+254 silly reify mark deleted [ 'D:\\practice\\node_modules\\@esbuild\\aix-ppc64' ]
+255 verbose reify failed optional dependency D:\practice\node_modules\@cloudflare\workerd-linux-arm64
+256 silly reify mark deleted [ 'D:\\practice\\node_modules\\@cloudflare\\workerd-linux-arm64' ]
+257 verbose reify failed optional dependency D:\practice\node_modules\@cloudflare\workerd-linux-64
+258 silly reify mark deleted [ 'D:\\practice\\node_modules\\@cloudflare\\workerd-linux-64' ]
+259 verbose reify failed optional dependency D:\practice\node_modules\@cloudflare\workerd-darwin-arm64
+260 silly reify mark deleted [ 'D:\\practice\\node_modules\\@cloudflare\\workerd-darwin-arm64' ]
+261 verbose reify failed optional dependency D:\practice\node_modules\@cloudflare\workerd-darwin-64
+262 silly reify mark deleted [ 'D:\\practice\\node_modules\\@cloudflare\\workerd-darwin-64' ]
+263 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\win32-ia32
+264 silly reify mark deleted [
+264 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\win32-ia32'
+264 silly reify ]
+265 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\win32-arm64
+266 silly reify mark deleted [
+266 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\win32-arm64'
+266 silly reify ]
+267 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\sunos-x64
+268 silly reify mark deleted [
+268 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\sunos-x64'
+268 silly reify ]
+269 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\openharmony-arm64
+270 silly reify mark deleted [
+270 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\openharmony-arm64'
+270 silly reify ]
+271 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\openbsd-x64
+272 silly reify mark deleted [
+272 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\openbsd-x64'
+272 silly reify ]
+273 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\openbsd-arm64
+274 silly reify mark deleted [
+274 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\openbsd-arm64'
+274 silly reify ]
+275 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\netbsd-x64
+276 silly reify mark deleted [
+276 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\netbsd-x64'
+276 silly reify ]
+277 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\netbsd-arm64
+278 silly reify mark deleted [
+278 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\netbsd-arm64'
+278 silly reify ]
+279 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-x64
+280 silly reify mark deleted [
+280 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-x64'
+280 silly reify ]
+281 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-s390x
+282 silly reify mark deleted [
+282 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-s390x'
+282 silly reify ]
+283 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-riscv64
+284 silly reify mark deleted [
+284 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-riscv64'
+284 silly reify ]
+285 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-ppc64
+286 silly reify mark deleted [
+286 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-ppc64'
+286 silly reify ]
+287 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-mips64el
+288 silly reify mark deleted [
+288 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-mips64el'
+288 silly reify ]
+289 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-loong64
+290 silly reify mark deleted [
+290 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-loong64'
+290 silly reify ]
+291 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-ia32
+292 silly reify mark deleted [
+292 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-ia32'
+292 silly reify ]
+293 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-arm64
+294 silly reify mark deleted [
+294 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-arm64'
+294 silly reify ]
+295 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\linux-arm
+296 silly reify mark deleted [
+296 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\linux-arm'
+296 silly reify ]
+297 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\freebsd-x64
+298 silly reify mark deleted [
+298 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\freebsd-x64'
+298 silly reify ]
+299 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\freebsd-arm64
+300 silly reify mark deleted [
+300 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\freebsd-arm64'
+300 silly reify ]
+301 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\darwin-x64
+302 silly reify mark deleted [
+302 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\darwin-x64'
+302 silly reify ]
+303 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\darwin-arm64
+304 silly reify mark deleted [
+304 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\darwin-arm64'
+304 silly reify ]
+305 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\android-x64
+306 silly reify mark deleted [
+306 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\android-x64'
+306 silly reify ]
+307 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\android-arm64
+308 silly reify mark deleted [
+308 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\android-arm64'
+308 silly reify ]
+309 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\android-arm
+310 silly reify mark deleted [
+310 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\android-arm'
+310 silly reify ]
+311 verbose reify failed optional dependency D:\practice\node_modules\wrangler\node_modules\@esbuild\aix-ppc64
+312 silly reify mark deleted [
+312 silly reify   'D:\\practice\\node_modules\\wrangler\\node_modules\\@esbuild\\aix-ppc64'
+312 silly reify ]
+313 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-win32-arm64-msvc
+314 silly reify mark deleted [
+314 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-win32-arm64-msvc'
+314 silly reify ]
+315 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-linux-x64-musl
+316 silly reify mark deleted [
+316 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-linux-x64-musl'
+316 silly reify ]
+317 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-linux-x64-gnu
+318 silly reify mark deleted [
+318 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-linux-x64-gnu'
+318 silly reify ]
+319 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-linux-arm64-musl
+320 silly reify mark deleted [
+320 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-linux-arm64-musl'
+320 silly reify ]
+321 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-linux-arm64-gnu
+322 silly reify mark deleted [
+322 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-linux-arm64-gnu'
+322 silly reify ]
+323 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-linux-arm-gnueabihf
+324 silly reify mark deleted [
+324 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-linux-arm-gnueabihf'
+324 silly reify ]
+325 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-freebsd-x64
+326 silly reify mark deleted [
+326 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-freebsd-x64'
+326 silly reify ]
+327 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-darwin-x64
+328 silly reify mark deleted [
+328 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-darwin-x64'
+328 silly reify ]
+329 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-darwin-arm64
+330 silly reify mark deleted [
+330 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-darwin-arm64'
+330 silly reify ]
+331 verbose reify failed optional dependency D:\practice\node_modules\vite\node_modules\lightningcss-android-arm64
+332 silly reify mark deleted [
+332 silly reify   'D:\\practice\\node_modules\\vite\\node_modules\\lightningcss-android-arm64'
+332 silly reify ]
+333 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\win32-ia32
+334 silly reify mark deleted [
+334 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\win32-ia32'
+334 silly reify ]
+335 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\win32-arm64
+336 silly reify mark deleted [
+336 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\win32-arm64'
+336 silly reify ]
+337 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\sunos-x64
+338 silly reify mark deleted [
+338 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\sunos-x64'
+338 silly reify ]
+339 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\openharmony-arm64
+340 silly reify mark deleted [
+340 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openharmony-arm64'
+340 silly reify ]
+341 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\openbsd-x64
+342 silly reify mark deleted [
+342 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openbsd-x64'
+342 silly reify ]
+343 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\openbsd-arm64
+344 silly reify mark deleted [
+344 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\openbsd-arm64'
+344 silly reify ]
+345 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\netbsd-x64
+346 silly reify mark deleted [
+346 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\netbsd-x64'
+346 silly reify ]
+347 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\netbsd-arm64
+348 silly reify mark deleted [
+348 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\netbsd-arm64'
+348 silly reify ]
+349 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-x64
+350 silly reify mark deleted [
+350 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-x64'
+350 silly reify ]
+351 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-s390x
+352 silly reify mark deleted [
+352 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-s390x'
+352 silly reify ]
+353 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-riscv64
+354 silly reify mark deleted [
+354 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-riscv64'
+354 silly reify ]
+355 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-ppc64
+356 silly reify mark deleted [
+356 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-ppc64'
+356 silly reify ]
+357 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-mips64el
+358 silly reify mark deleted [
+358 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-mips64el'
+358 silly reify ]
+359 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-loong64
+360 silly reify mark deleted [
+360 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-loong64'
+360 silly reify ]
+361 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-ia32
+362 silly reify mark deleted [
+362 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-ia32'
+362 silly reify ]
+363 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-arm64
+364 silly reify mark deleted [
+364 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-arm64'
+364 silly reify ]
+365 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\linux-arm
+366 silly reify mark deleted [
+366 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\linux-arm'
+366 silly reify ]
+367 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\freebsd-x64
+368 silly reify mark deleted [
+368 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\freebsd-x64'
+368 silly reify ]
+369 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\freebsd-arm64
+370 silly reify mark deleted [
+370 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\freebsd-arm64'
+370 silly reify ]
+371 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\darwin-x64
+372 silly reify mark deleted [
+372 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\darwin-x64'
+372 silly reify ]
+373 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\darwin-arm64
+374 silly reify mark deleted [
+374 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\darwin-arm64'
+374 silly reify ]
+375 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\android-x64
+376 silly reify mark deleted [
+376 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-x64'
+376 silly reify ]
+377 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\android-arm64
+378 silly reify mark deleted [
+378 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-arm64'
+378 silly reify ]
+379 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\android-arm
+380 silly reify mark deleted [
+380 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\android-arm'
+380 silly reify ]
+381 verbose reify failed optional dependency D:\practice\node_modules\drizzle-kit\node_modules\@esbuild\aix-ppc64
+382 silly reify mark deleted [
+382 silly reify   'D:\\practice\\node_modules\\drizzle-kit\\node_modules\\@esbuild\\aix-ppc64'
+382 silly reify ]
+383 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\win32-ia32
+384 silly reify mark deleted [
+384 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\win32-ia32'
+384 silly reify ]
+385 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\win32-arm64
+386 silly reify mark deleted [
+386 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\win32-arm64'
+386 silly reify ]
+387 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\sunos-x64
+388 silly reify mark deleted [
+388 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\sunos-x64'
+388 silly reify ]
+389 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\openbsd-x64
+390 silly reify mark deleted [
+390 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\openbsd-x64'
+390 silly reify ]
+391 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\netbsd-x64
+392 silly reify mark deleted [
+392 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\netbsd-x64'
+392 silly reify ]
+393 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-x64
+394 silly reify mark deleted [
+394 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-x64'
+394 silly reify ]
+395 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-s390x
+396 silly reify mark deleted [
+396 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-s390x'
+396 silly reify ]
+397 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-riscv64
+398 silly reify mark deleted [
+398 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-riscv64'
+398 silly reify ]
+399 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-ppc64
+400 silly reify mark deleted [
+400 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-ppc64'
+400 silly reify ]
+401 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-mips64el
+402 silly reify mark deleted [
+402 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-mips64el'
+402 silly reify ]
+403 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-loong64
+404 silly reify mark deleted [
+404 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-loong64'
+404 silly reify ]
+405 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-ia32
+406 silly reify mark deleted [
+406 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-ia32'
+406 silly reify ]
+407 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-arm64
+408 silly reify mark deleted [
+408 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-arm64'
+408 silly reify ]
+409 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\linux-arm
+410 silly reify mark deleted [
+410 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\linux-arm'
+410 silly reify ]
+411 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\freebsd-x64
+412 silly reify mark deleted [
+412 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\freebsd-x64'
+412 silly reify ]
+413 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\freebsd-arm64
+414 silly reify mark deleted [
+414 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\freebsd-arm64'
+414 silly reify ]
+415 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\darwin-x64
+416 silly reify mark deleted [
+416 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\darwin-x64'
+416 silly reify ]
+417 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\darwin-arm64
+418 silly reify mark deleted [
+418 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\darwin-arm64'
+418 silly reify ]
+419 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-x64
+420 silly reify mark deleted [
+420 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-x64'
+420 silly reify ]
+421 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-arm64
+422 silly reify mark deleted [
+422 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-arm64'
+422 silly reify ]
+423 verbose reify failed optional dependency D:\practice\node_modules\@esbuild-kit\core-utils\node_modules\@esbuild\android-arm
+424 silly reify mark deleted [
+424 silly reify   'D:\\practice\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\@esbuild\\android-arm'
+424 silly reify ]
+425 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 0ms (cache hit)
+426 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz 0ms (cache hit)
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD node_modules/@napi-rs/wasm-runtime
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD
+508 silly ADD
+509 silly ADD
+510 silly ADD
+511 silly ADD
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD
+526 silly ADD
+527 silly ADD
+528 silly ADD
+529 silly ADD
+530 silly ADD
+531 silly ADD
+532 silly ADD
+533 silly ADD
+534 silly ADD
+535 silly ADD
+536 silly ADD
+537 silly ADD
+538 silly ADD
+539 silly ADD
+540 silly ADD
+541 silly ADD
+542 silly ADD
+543 silly ADD
+544 silly ADD
+545 silly ADD
+546 silly ADD
+547 silly ADD
+548 silly ADD
+549 silly ADD
+550 silly ADD
+551 silly ADD
+552 silly ADD
+553 silly ADD
+554 silly ADD
+555 silly ADD
+556 silly ADD
+557 silly ADD
+558 silly ADD
+559 silly ADD
+560 silly ADD
+561 silly ADD
+562 silly ADD
+563 silly ADD
+564 silly ADD
+565 silly ADD
+566 silly ADD
+567 silly ADD
+568 silly ADD
+569 silly ADD
+570 silly ADD
+571 silly ADD
+572 silly ADD
+573 silly ADD
+574 silly ADD
+575 silly ADD
+576 silly ADD
+577 silly ADD
+578 silly ADD
+579 silly ADD
+580 silly ADD
+581 silly ADD
+582 silly ADD
+583 silly ADD
+584 silly ADD
+585 silly ADD
+586 silly ADD
+587 silly ADD
+588 silly ADD
+589 silly ADD
+590 silly ADD
+591 silly ADD
+592 silly ADD
+593 silly ADD
+594 silly ADD
+595 silly ADD
+596 silly ADD
+597 silly ADD
+598 silly ADD
+599 silly ADD
+600 silly ADD
+601 silly ADD
+602 silly ADD
+603 silly ADD
+604 silly ADD
+605 silly ADD
+606 silly ADD
+607 silly ADD
+608 silly ADD
+609 silly ADD
+610 silly ADD
+611 silly ADD
+612 silly ADD
+613 silly ADD
+614 silly ADD
+615 silly ADD
+616 silly ADD
+617 silly ADD
+618 silly ADD
+619 silly ADD
+620 silly ADD
+621 silly ADD
+622 silly ADD
+623 verbose cwd D:\practice
+624 verbose os Windows_NT 10.0.26200
+625 verbose node v22.15.0
+626 verbose npm  v10.9.2
+627 verbose exit 0
+628 info ok
